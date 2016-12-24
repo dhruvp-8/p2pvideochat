@@ -10,7 +10,7 @@ navigator.webkitGetUserMedia({
     })
 
     peer.on('signal', function(data){
-        document.getElementById('myId').value = JSON.stringify(data)
+        document.getElementById('yourId').value = JSON.stringify(data)
     })
 
     document.getElementById('connect').addEventListener('click', function
