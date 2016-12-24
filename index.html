@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h2 class="text-center">P2P Video Chat</h2>
+            <hr />
+        </div>
+        <div class="container">
+            <div class="col-md-4">
+                <label>My ID: </label><br/>
+                <textarea id="myId" rows="8" cols="80" class="form-control"></textarea><br/>
+                <label>Other ID: </label><br/>
+                <textarea id="otherId" rows="8" cols="80" class="form-control"></textarea><br/>
+                <button type="button" id="connect" class="btn btn-md btn-primary">Connect</button><br/><br/>
+
+                <label>Enter Message: </label><br/>
+                <textarea id="yourMessage" rows="8" cols="80" class="form-control"></textarea><br/>
+                <button type="button" id="send" class="btn btn-md btn-success">Send</button><br/><br/>
+                <pre id="messages"></pre>
+
+            </div>
+        </div>
+        <div class="container">
+
+        <script src="bundle.js"></script>
+    </body>
+</html>
