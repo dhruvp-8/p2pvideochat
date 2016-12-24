@@ -1,1 +1,1 @@
-web: node index.js
+web: budo index.js:bundle.js
